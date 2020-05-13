@@ -1,0 +1,359 @@
+.quote_1{
+    font-size: 50px;
+}
+
+.quote_underline{
+    font-size: 16px;
+
+}
+
+.picture_quote{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.picture_quote_kontakt{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+
+.main_container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* wyświetl itemy wewnąrz tej DIV na samym środku */
+
+}
+
+.btn{
+    margin: 30px;
+    margin-left: 18px ;
+}
+
+.btnCentered{
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture_main{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card_main {
+
+    /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
+    display: inline-block;
+
+    width: 100%;
+    height: 100%;
+}
+
+.picture_main_etapy{
+    max-width: 300px;
+    width: 100%;
+
+    
+}
+
+
+
+.mainButtons{
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
+.containterEtapy1{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    margin-bottom: 130px;
+
+}
+
+.containterEtapy1Kontakt{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.CheckBoxcontainer{
+    max-width: 420px;;
+}
+
+.containterEtapy2{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    margin-bottom: 130px;
+
+}
+
+.cardEtapyLewa{
+    display: inline-block;
+    width: 100%;
+    margin-right: 50px;
+
+}
+
+.cardEtapyLewaKontakt{
+    width: 100%;
+
+}
+
+.cardEtapyPrawa{
+    display: inline-block;
+    width: 100%;
+
+}
+
+
+.header1etapy{
+    font-size: 54px;
+}
+
+.header1Post{
+    font-size: 46px;
+}
+
+.header2Post{
+    font-size: 30px;
+}
+
+.header3Post{
+    font-size: 22px;
+}
+
+.tytulStrony{
+font-size: 76px;
+}
+
+.podTytulStrony{
+font-size: 22px;
+}
+
+
+.glownyKontener{
+    max-width: 1440px;
+    min-height: 600px;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+
+}
+
+.kontenerGlowneZdjecie{
+
+    height: 100%;
+    left: 37%;
+
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.picture_main_nowe{
+    height: 100%;
+    width: 100%;
+    margin-top: 30px;
+    object-fit: cover;
+
+}
+
+.kontenerGlowneTeksty{
+    padding-top:10px;
+    display: inline-block;
+    height: 100%;
+    z-index: 4;
+    box-sizing: border-box;
+    flex-basis: 47.92401%;
+    width: 47.92401%;
+    margin: 0 18px;
+
+}
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 50px;
+    align-items: center;
+}
+.main-nav {
+    display: flex;
+    margin-right: 100px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.main-nav li {
+    margin: 0;
+}
+.nav-links {
+    margin-left: 40px;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 0;
+}
+.navbar-toggle {
+   display: none;
+}
+
+
+.nav-links:hover {
+
+    color: #1d56aa;
+}
+.stopka {
+    background-color:  #757575;
+
+}
+
+.footerText{
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  
+  .thxPage{
+
+    margin: 60px;
+    margin-top: 100px;
+}
+.formField{
+    max-width: 450px;
+
+}
+
+
+    
+
+
+
+.containerBlog{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    height: 200px;
+
+}
+
+
+
+
+
+.dividerNapisy{
+    margin-left: 40px;
+    margin-top: 120px;
+
+}
+
+.divider{
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+
+.cardLewaBlog{
+    display: inline-block;
+    margin-right: 50px;
+    height: 100%;
+
+}
+
+.cardPrawaBlog{
+
+    width: 100%;
+
+}
+
+
+.bodyPostContent{
+    margin-top: 150px;
+    }
+
+    .bodyPicturePost{
+    width: 100%;
+    height: 500px;
+
+}
+
+.bodyPicturePostInside{
+    width: 100%;
+
+}
+
+.bodyHeaderPost{
+
+    margin-left: 48px;
+
+    
+}
+
+.postContentSimpleText{
+    font-size: 18px;
+
+}
+
+
+li{
+    font-size: 18px;
+}
+
+blockquote {
+    font-size: 22px;
+
+    }
+
+    .specialText{
+        font-size: 14px;
+    }
+
+    .bodyPostSpecials{
+        flex-direction: row;
+    }
+
+    .main_sprawdz_zdolnosc{
+        margin-left: 0px;
+
+    }
