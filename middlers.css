@@ -266,8 +266,11 @@ padding: 0px;
 
 .card_text{
     text-align: justify;
+}
 
-
+.teksZajawki{
+    text-align: justify;
+    padding: 0px 18px 18px 18px;
 }
 
 
@@ -288,6 +291,36 @@ padding: 0px;
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
     border-radius: 12px;
 }
+
+
+
+.cardArticle {
+    /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
+    width: 300px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
+    border-radius: 12px;
+    margin-left: 18px;
+    height: 360px;
+}
+
+.cropped1 {
+    width: 100%; /* width of container */
+    height: 150px; /* height of container */
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.kontenerZajawek{
+ margin-top: 44px;
+ width: 100%;
+display: flex;
+ flex-direction: row;
+overflow: auto;
+padding-bottom: 18px;
+
+}
+
+
 
 .versusModul{
     margin-bottom: 40px;
@@ -485,6 +518,19 @@ padding: 0px;
     color: #000000de;
 
 }
+
+.tytulZajawki{
+    margin-left: 18px;
+    margin-bottom: 28px;
+    margin-right: 18px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000de;
+
+}
+
+
 
 
 .btn {
@@ -806,6 +852,7 @@ textarea.formField{
 footer {
       background-color:  #F8F9FA;
       margin: 0px;
+      margin-top: 28px;
       padding: 0px;
       padding-top: 30px;
 
