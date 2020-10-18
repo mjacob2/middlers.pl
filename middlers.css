@@ -531,13 +531,22 @@ padding-bottom: 18px;
 }
 
 
-
+#call_btn_navBar{
+    margin-left: 50px;
+    font-size: 18px;
+    border-width: 0;
+    outline: none;
+    border-radius: 18px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #0D904F;
+    color: #ecf0f1;
+    padding: 6px 10px;
+}
 
 .btn {
     display: block;
     margin: 20px auto;
     margin-top: 30px;
-
     font-size: 18px;
     border-width: 0;
     outline: none;
@@ -552,6 +561,10 @@ padding-bottom: 18px;
     background-color: #1d56aa;
   }
 
+  .btn_icon{
+      height: 18px;
+      margin-right: 5px;
+  }
 
   .btnForm {
 
@@ -709,7 +722,7 @@ padding-bottom: 18px;
      position: relative;
      display: inline-block;
      width: 100%;
-     height: 350px;
+     height: 380px;
      overflow: hidden;
      margin: 0 auto;
   }

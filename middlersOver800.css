@@ -364,3 +364,7 @@ blockquote {
     .cardArticle {
         margin-left: 40px;
     }
+
+    #call_btn_navBar{
+display: none;
+    }
