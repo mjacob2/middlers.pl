@@ -5,7 +5,7 @@ var html = '<nav class="navbar">\
     <div class="hamburger"></div>\
 </span>\
 <a href="https://middlers.pl" class="logo">○●○ middlers</a>\
-<button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
+<button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="https://middlers.pl/images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
 <ul class="main-nav" id="js-menu">\
     <li>\
         <a href="/#korzysci" class="nav-links">KORZYŚCI </a>\
