@@ -9,6 +9,9 @@ body{
 }
 
 
+#call_btn_navBar{
+display: none;
+}
 
 .divider{
     height: 3px;
@@ -45,6 +48,8 @@ body{
 .main_sprawdz_zdolnosc{
     margin-left: 0px;
     margin: auto;
+    background-color: transparent;
+    background-repeat:no-repeat;
     border: 2px solid;
     border-color: #2573E6; 
     padding: 11px 16px;
@@ -53,10 +58,8 @@ body{
     outline:none;
     color: #2573E6;
     font-size: 17px;
+
     border-radius: 50px;
-    background: #ffffff;
-box-shadow:  -7px 7px 11px #bababa,
-             7px -7px 11px #ffffff;
 }
 
 
@@ -123,12 +126,6 @@ box-shadow:  -7px 7px 11px #bababa,
     
 }
 
-.main_sprawdz_zdolnosc:hover{
-    background-color: #2573E6;
-    color: white;
-    
-}
-
 .button_no_borders_white{
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -162,6 +159,9 @@ h1{
     font-weight: normal;
     margin: 0;
     padding: 0;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
 
 }
 
@@ -179,6 +179,11 @@ h2{
     font-weight: normal;
     margin: 0;
     padding: 0;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
+    margin-top: 40px;
+
 }
 
 h3{
@@ -244,12 +249,15 @@ h3{
 
 p{
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
     line-height: 1.3;
     font-weight: normal;
     margin: 0px;
     padding: 0px;
     color: #00000099;
+    margin-top: 18px;
+    text-align: justify;
+    line-height: 28px;
+    font-size: 16px;
 }
 
 li{
@@ -298,10 +306,8 @@ padding: 0px;
     /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
     max-width: 480px;
     width: 100%;
-    border-radius: 16px;
-    background: #ffffff;
-    box-shadow:  20px 20px 60px #d9d9d9,
-    -20px -20px 60px #ffffff;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
+    border-radius: 12px;
 }
 
 
@@ -309,8 +315,7 @@ padding: 0px;
 .cardArticle {
     /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
     width: 300px;
-    box-shadow:  9px 9px 18px #bfbfbf,
-    -9px -9px 18px #ffffff;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
     border-radius: 12px;
     margin-left: 18px;
     height: 360px;
@@ -460,12 +465,7 @@ padding-bottom: 18px;
     color: #414141;
 }
 
-.header2Post{
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: #414141;
-    margin-top: 40px;
-}
+
 
 .header3Post{
     font-size: 18px;
@@ -550,8 +550,7 @@ padding-bottom: 18px;
     border-width: 0;
     outline: none;
     border-radius: 18px;
-    box-shadow:  8px 8px 15px #d9d9d9,
-    -8px -8px 15px #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     background-color: #0D904F;
     color: #ecf0f1;
     padding: 6px 10px;
@@ -563,17 +562,16 @@ padding-bottom: 18px;
     margin-top: 30px;
     font-size: 18px;
     border-width: 0;
+    outline: none;
     border-radius: 2px;
-    background-color:#FFCA28;
-    color: black;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #2573E6;
+    color: #ecf0f1;
     padding: 14px 23px;
-    border-radius: 42px;
-box-shadow:  -7px 7px 11px #bababa,
-             7px -7px 11px #ffffff;
   }
 
   .btn:hover {
-    background-color: #FFA000;
+    background-color: #1d56aa;
   }
 
   .btn_icon{
@@ -589,13 +587,11 @@ box-shadow:  -7px 7px 11px #bababa,
     border-width: 0;
     outline: none;
     border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     background-color: #2573E6;
     color: #ecf0f1;
     transition: background-color .3s;
     padding: 14px 18px;
-    box-shadow:  -7px 7px 11px #bababa,
-             7px -7px 11px #ffffff;
-    
   }
 
   .btnForm:hover {
@@ -642,7 +638,6 @@ box-shadow:  -7px 7px 11px #bababa,
     height: 100%;
     z-index: 4;
     box-sizing: border-box;
-    
 
 }
 
@@ -1005,11 +1000,7 @@ footer {
     justify-content: center;
     min-height: 240px;
     height: 100%;
-    border-radius: 32px;
-background: #ffffff;
-box-shadow:  9px 9px 18px #bfbfbf,
-             -9px -9px 18px #ffffff;
-
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
 
 
 }
@@ -1031,12 +1022,15 @@ box-shadow:  9px 9px 18px #bfbfbf,
 
 }
 
-.pictureBlog{
+img{
     width: 100%;
     height: 100%;
     margin: 0;
     object-fit: cover;
 }
+
+
+
 
 
 .pictureBlogInside{
@@ -1092,7 +1086,6 @@ width: 100%;
 display: flex;
 justify-content: center;
 
-
 }
 
 .bodyPostContent{
@@ -1102,11 +1095,66 @@ max-width: 900px;
 height: 100%;
 background-color: #F8F9FA;
 margin-bottom: 50px;
+box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.72);
+}
+
+.bodyPostContentStronaGlowna{
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    background-color: #F8F9FA;
+    margin-bottom: 50px;
+border-radius: 21px;
+box-shadow:  14px 14px 31px #a1a1a1,
+             -14px -14px 31px #ffffff
+    }
+
+
+.bodyPicturePost{
+    width: 100%;
+    height: 300px;
 
 }
 
+.bodyPicturePostInside{
+    width: 100%;
 
 
+}
+
+.bodyHeaderPost{
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    
+}
+
+.bodyTextPost{
+/* wyświetl itemy wewnąrz tej DIV na samym środku */
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+margin-top: 50px;
+
+}
+
+.textPost{
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+
+.postContentSimpleTextPrzypis{
+    margin-top: 1px;
+
+    font-size: 12px;
+
+}
 
 blockquote {
     font-family: 'Roboto', sans-serif;
@@ -1165,8 +1213,6 @@ blockquote {
 .mainButtons{
     display: flex;
     flex-direction: column;
-    padding-bottom: 18px;
-    padding-top: 24px;
 
 }
 
@@ -1236,9 +1282,3 @@ blockquote {
     }
 }
 /* Koniec stylów dla bannera ciasteczkowego */
-
-
-
-
-
-
