@@ -81,23 +81,11 @@
 
 
 
-    <!-- Tu START navigation Bar -->
-    <div id="navigationBar"></div>
-    <script src="../navigationBar.js"></script>
-    <!-- Tu KONIEC navigation Bar -->
+
 
     <div>
 
-        <!--Tutaj nawiguj do KONTAKT-->
-        <a name="etapy">
-            <div id="etapy">
-            </div>
-        </a>
-        <h2 class="dividerNapisy kotwice">
-            KONTAKT
-        </h2>
-        <div class="divider">
-        </div>
+        <div style="margin-bottom: 20px;"></div>
 
         <!--1 cytat-->
         <div class="quote_container">
@@ -106,16 +94,10 @@
                 <img class="picture_quote_kontakt" src="../images/blue_quote_sign.png" alt="Doradca finansowy wrocław">
             </div>
 
-            <h3 class="quote_1">
+            <h3 style="margin-bottom: 20px;" class="quote_1">
                 Wierzę, że <span class="text_blue_background">każdy może mieć najlepszy kredyt hipoteczny. Dlatego
                     jestem mobilny.</span> Aby spotkać się z&nbsp;Tobą tam, gdzie jest Ci najwygodniej.
             </h3>
-
-            <div>
-                <p class="quote_underline">
-                    <b>Marek Jakubicki</b>, prezes zarządu, middlers sp. z o.o.
-                </p>
-            </div>
         </div>
 
 
@@ -160,6 +142,7 @@
    - It is important that you test the modified form before going live.-->
                 <div id='crmWebToEntityForm'>
                     <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+                    <script src='https://www.google.com/recaptcha/api.js' async defer></script> <!-- do reCAPTCHA-->
                     <form class="formularzLabels" action='https://crm.zoho.eu/crm/WebToLeadForm'
                         name=WebToLeads167379000000134776 method='POST'
                         onSubmit='javascript:document.charset="UTF-8"; return checkMandatory167379000000134776()'
@@ -201,36 +184,62 @@
                                     <option value='KupujeM'>KupujeM</option>
                                     <option selected value='strona&#x20;internetowa'>strona internetowa</option>
                                     <option value='z&#x20;polecenia&#x20;Klienta'>z polecenia Klienta</option>
-                                </select></td>
+                                </select>
+                            </td>
                         </div>
 
-                        <div><label class="CheckBoxcontainer">
-                                wyrażam zgodę na przetwarzanie moich danych osobowych przez Middlers Sp. z o.o. z
-                                siedzibą
-                                we Wrocławiu w celu świadczenia usług pośrednictwa finansowego, zgodnie z Ustawą o
-                                Ochronie
-                                Danych Osobowych z dnia 29 sierpnia 1997 r. (Dz. U. Dz.U. 1997 nr 133 poz. 883) oraz
-                                Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016
-                                r.
-                                (RODO). Dane będą przetwarzane jedynie w celu obsługi wysłanego zgłoszenia tak długo,
-                                jak
-                                to będzie konieczne. Jestem świadomy, że mam możliwość dostępu do swoich danych, w celu
-                                ich
-                                sprostowania i usunięcia oraz żądania ograniczenia ich przetwarzania oraz wycofania
-                                zgody w
-                                każdym momencie, przy czym, cofnięcie uprzednio wyrażonej zgody nie wpłynie na
-                                legalność
-                                przetwarzania przed jej wycofaniem, a także wniesienia skargi do organu nadzorczego.
-                                <input autocomplete='off' onclick='disableSubmit()' id='privacyTool' type='checkbox'
-                                    name='privacyTool'>
-                                <span class="checkmark"></span></div>
+
+                        <!-- do reCAPTCHA-->
+                        <div class='zcwf_row sty'>
+                            <div class='zcwf_col_lab'></div>
+                            <div class='zcwf_col_fld'>
+                                <div style="margin-bottom: 16px;" class='g-recaptcha'
+                                    data-sitekey='6LePdDMaAAAAAMTFbfgFF0_pjLdav2uu71w56mfD' data-theme='light'
+                                    data-callback='rccallback167379000000134776' captcha-verified='false'
+                                    id='recap167379000000134776'>
+                                </div>
+
+                            </div>
+                            <!-- do reCAPTCHA-->
+
+
+                            <div>
+                                <label class="CheckBoxcontainer">
+                                    wyrażam zgodę na przetwarzanie moich danych osobowych przez Middlers Sp. z o.o. z
+                                    siedzibą
+                                    we Wrocławiu w celu świadczenia usług pośrednictwa finansowego, zgodnie z Ustawą o
+                                    Ochronie
+                                    Danych Osobowych z dnia 29 sierpnia 1997 r. (Dz. U. Dz.U. 1997 nr 133 poz. 883) oraz
+                                    Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia
+                                    2016
+                                    r.
+                                    (RODO). Dane będą przetwarzane jedynie w celu obsługi wysłanego zgłoszenia tak
+                                    długo,
+                                    jak
+                                    to będzie konieczne. Jestem świadomy, że mam możliwość dostępu do swoich danych, w
+                                    celu
+                                    ich
+                                    sprostowania i usunięcia oraz żądania ograniczenia ich przetwarzania oraz wycofania
+                                    zgody w
+                                    każdym momencie, przy czym, cofnięcie uprzednio wyrażonej zgody nie wpłynie na
+                                    legalność
+                                    przetwarzania przed jej wycofaniem, a także wniesienia skargi do organu nadzorczego.
+                                    <input autocomplete='off' onclick='disableSubmit()' id='privacyTool' type='checkbox'
+                                        name='privacyTool'>
+                                    <span class="checkmark"></span>
+                            </div>
 
 
 
-                        <div>
-                            <input class="btnForm" disabled id='formsubmit' type='submit' value='Wyślij' />
-                            <!--TO JEST PRZYCISK RESET - NIE POTRZEBUJEMY GO   <input onclick='disableSubmitwhileReset()' type='reset' style='font-size:12px;color:black'
+                            <div>
+                                <input class="btnForm" disabled id='formsubmit' type='submit' value='Wyślij' />
+                                <!--TO JEST PRZYCISK RESET - NIE POTRZEBUJEMY GO   <input onclick='disableSubmitwhileReset()' type='reset' style='font-size:12px;color:black'
                                         value='Reset' />-->
+                                <div id='recapErr167379000000134776'
+                                    style='font-size:16px;color:red;visibility:hidden; margin-top: 5px;'>
+                                    Zaznacz kwadracik, że nie jesteś robotem, bo inaczej nie wyślemy tej wiadomosci! No,
+                                    chyba, że nim jesteś, to wtedy uciekaj raz dwa!</div>
+                            </div>
                         </div>
 
 
@@ -292,6 +301,32 @@
                                 }
                             }
 
+
+
+
+                            function rccallback167379000000134776() {
+                                if (document.getElementById('recap167379000000134776') != undefined) {
+                                    document.getElementById('recap167379000000134776').setAttribute('captcha-verified', true);
+                                }
+                                if (document.getElementById('recapErr167379000000134776') != undefined && document.getElementById('recapErr167379000000134776').style.visibility == 'visible') {
+                                    document.getElementById('recapErr167379000000134776').style.visibility = 'hidden';
+                                }
+                            }
+                            function reCaptchaAlert167379000000134776() {
+                                var recap = document.getElementById('recap167379000000134776');
+                                if (recap != undefined && recap.getAttribute('captcha-verified') == 'false') {
+                                    document.getElementById('recapErr167379000000134776').style.visibility = 'visible';
+                                    return false;
+                                }
+                                return true;
+                            }
+
+
+
+
+
+
+
                             function checkMandatory167379000000134776() {
                                 for (i = 0; i < mndFileds.length; i++) {
                                     var fieldObj = document.forms['WebToLeads167379000000134776'][mndFileds[i]];
@@ -325,6 +360,10 @@
                                         } catch (e) { }
                                     }
                                 }
+
+
+                                if (!reCaptchaAlert167379000000134776()) { return false; }
+                                document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
                             }
 
                         </script>
@@ -375,5 +414,9 @@
 <!--To jest ścieżka do javaScript-->
 <script src="../script.js"></script>
 
+<!-- Tu START navigation Bar -->
+<div id="navigationBar"></div>
+<script src="../navigationBar.js"></script>
+<!-- Tu KONIEC navigation Bar -->
 
 </html>
