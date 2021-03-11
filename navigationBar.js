@@ -1,12 +1,12 @@
 var html = '<nav class="navbar">\
-<span class="navbar-toggle" id="js-navbar-toggle">\
+<span class="navbar-toggle" id="hamburger">\
     <div class="hamburger"></div>\
     <div class="hamburger"></div>\
     <div class="hamburger"></div>\
 </span>\
 <a href="https://middlers.pl" class="logo">○●○ middlers</a>\
 <button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="https://middlers.pl/images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
-<ul class="main-nav" id="js-menu">\
+<ul class="main-nav" id="pozycjeMenu">\
     <li>\
         <a href="/#korzysci" class="nav-links">KORZYŚCI </a>\
     </li>\
@@ -23,6 +23,8 @@ var html = '<nav class="navbar">\
         <a href="/kontakt" class="nav-links">KONTAKT</a>\
     </li>\
 </ul>\
-</nav>';
+</nav>\
+<!--To poniższe ciasteczko jest tylko po to, żeby zrobićnową DIV dla bannera z ciasteczkiem a jest w tym miejscu, zeby nie trzeba bylo kopiowac tego do kazdej strony-->\
+<div id="ciasteczko"></div>';
 
 document.getElementById('navigationBar').innerHTML = html;
