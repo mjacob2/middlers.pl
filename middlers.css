@@ -219,16 +219,6 @@ h3{
     max-width: 900px;
 }
 
-.quote_underline{
-    text-align: left;
-    font-family: Google Sans, Roboto, Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    font-size: 12px;
-    font-style: normal;
-    width: 100%;
-
-
-}
 
 .text_blue_background{
     color: white;
@@ -1194,7 +1184,6 @@ blockquote {
     overflow: hidden;
     position: fixed;
     bottom: 30px;
-    right: 30px;
     display: none;
 }
 
