@@ -25,15 +25,19 @@
 
 }
 
-.btn{
-    margin: 30px;
-    margin-left: 18px ;
+#przycisk_umow_spotkanie_top{
+margin-left: 20px;
 }
 
 .btnCentered{
     margin-top: 12px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.btn{
+    margin: 20px;
 }
 
 .picture_main{
@@ -74,7 +78,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: flex-start;
-    margin-bottom: 130px;
+    margin-bottom: 320px;
 
 }
 
@@ -99,7 +103,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: flex-start;
-    margin-bottom: 130px;
+    margin-bottom: 320px;
 
 }
 
@@ -139,11 +143,21 @@
 }
 
 .tytulStrony{
-font-size: 76px;
+font-size: 70px;
 }
 
 .podTytulStrony{
-font-size: 22px;
+font-size: 28px;
+}
+
+.faq{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -349,9 +363,8 @@ blockquote {
         flex-direction: row;
     }
 
-    .main_sprawdz_zdolnosc{
+    .btn_blue{
         margin-left: 0px;
-
     }
 
 

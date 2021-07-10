@@ -42,22 +42,7 @@ body{
 }
 
 
-.main_sprawdz_zdolnosc{
-    margin-left: 0px;
-    margin: auto;
-    border: 2px solid;
-    border-color: #2573E6; 
-    padding: 11px 16px;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    color: #2573E6;
-    font-size: 17px;
-    border-radius: 50px;
-    background: #ffffff;
-box-shadow:  -7px 7px 11px #bababa,
-             7px -7px 11px #ffffff;
-}
+
 
 
 .quote_container{
@@ -123,11 +108,7 @@ box-shadow:  -7px 7px 11px #bababa,
     
 }
 
-.main_sprawdz_zdolnosc:hover{
-    background-color: #2573E6;
-    color: white;
-    
-}
+
 
 .button_no_borders_white{
     background-color: Transparent;
@@ -283,7 +264,7 @@ padding: 0px;
 .card {
     padding-top: 18px;
     padding-left: 18px;
-    padding-right: 18px;
+    padding-right: 22px;
     margin: 20px;
     /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
     max-width: 480px;
@@ -515,7 +496,7 @@ padding-bottom: 18px;
     margin-bottom: 50px;
     margin-right: 18px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 2.2em;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     color: #000000de;
@@ -547,24 +528,54 @@ padding-bottom: 18px;
     padding: 6px 10px;
 }
 
+
+
 .btn {
-    display: block;
+    cursor:pointer;
     margin: 20px auto;
-    margin-top: 30px;
-    font-size: 18px;
+    display: block;
+    font-size: 17px;
     border-width: 0;
-    border-radius: 2px;
+    padding: 11px 16px;
+    border-radius: 42px;
+    box-shadow:  -7px 7px 11px #bababa, 7px -7px 11px #ffffff;
+}
+
+
+
+.btn_gold{
+    font-weight: bold;
     background-color:#FFCA28;
     color: black;
-    padding: 14px 23px;
-    border-radius: 42px;
-box-shadow:  -7px 7px 11px #bababa,
-             7px -7px 11px #ffffff;
-  }
-
-  .btn:hover {
+}
+.btn_gold:hover {
     background-color: #FFA000;
   }
+
+
+
+.btn_blue{
+    border: 2px solid;
+    background: #ffffff;
+    outline:none;
+    color: #2573E6;
+    border-color: #2573E6; 
+}
+
+.btn_blue:hover{
+    background-color: #2573E6;
+    color: white;
+    
+}
+
+
+
+  #przycisk_umow_spotkanie_top{
+    width: 219.55px;
+    height: 45.33px;
+  }
+
+
 
   .btn_icon{
       height: 18px;
@@ -572,7 +583,6 @@ box-shadow:  -7px 7px 11px #bababa,
   }
 
   .btnForm {
-
     padding: 0;
     font-size: 18px;
     border-width: 0;
@@ -1217,6 +1227,53 @@ blockquote {
     cursor: pointer;
     background: #16458b;
 }
+
+
+
+.accordion {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #414141;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .activeFAQ, .accordion:hover {
+    background-color: #2573E6; 
+    color: #ffffff;
+  }
+  
+  .panel {
+      
+    padding: 20px;
+    display: none;
+    background-color: #eff4f8;
+    overflow: hidden;
+  }
+
+  .accordion:after {
+    content: '\2228'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activeFAQ:after {
+    content: "\2227"; /* Unicode character for "minus" sign (-) */
+  }
+
+
+
+
+
+
 
 @media (max-width: 980px) {
     .cookieConsentContainer {

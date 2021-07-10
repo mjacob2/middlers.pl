@@ -8,6 +8,9 @@ var html = '<nav class="navbar">\
 <button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="https://middlers.pl/images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
 <ul class="main-nav" id="pozycjeMenu">\
     <li>\
+    <a href="/o-mnie.html" class="nav-links">O MNIE </a>\
+    </li>\
+    <li>\
         <a href="/#korzysci" class="nav-links">KORZYŚCI </a>\
     </li>\
     <li>\

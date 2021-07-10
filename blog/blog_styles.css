@@ -556,23 +556,9 @@ padding-bottom: 18px;
     padding: 6px 10px;
 }
 
-.btn {
-    display: block;
-    margin: 20px auto;
-    margin-top: 30px;
-    font-size: 18px;
-    border-width: 0;
-    outline: none;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    background-color: #2573E6;
-    color: #ecf0f1;
-    padding: 14px 23px;
-  }
 
-  .btn:hover {
-    background-color: #1d56aa;
-  }
+
+
 
   .btn_icon{
       height: 18px;
