@@ -177,6 +177,14 @@ h3{
     margin-bottom: 3px;
 }
 
+.card_titleREKLAMA{
+    color: #000000de;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
 
 .kontaktImieNazwisko{
     color: #000000de;
@@ -249,6 +257,11 @@ padding: 0px;
     text-align: justify;
 }
 
+.card_textREKLAMA{
+    font-size: 16px;
+    text-align: justify;
+}
+
 .teksZajawki{
     text-align: justify;
     padding: 0px 18px 18px 18px;
@@ -268,6 +281,20 @@ padding: 0px;
     margin: 20px;
     /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
     max-width: 480px;
+    width: 100%;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+.cardREKLAMA {
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 22px;
+    margin: 20px;
+    /* to znaczy, żeby wysokość zależała od tego, co jest w środku */
+    max-width: 300px;
     width: 100%;
     border-radius: 16px;
     background: #ffffff;
@@ -503,6 +530,18 @@ padding-bottom: 18px;
 
 }
 
+.tytulKartyREKLAMA{
+    margin-left: 18px;
+    margin-bottom: 50px;
+    margin-right: 18px;
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #000000de;
+
+}
+
 .tytulZajawki{
     margin-left: 18px;
     margin-bottom: 28px;
@@ -617,6 +656,7 @@ padding-bottom: 18px;
     height: 100%;
     width: 100%;
     margin-top: 45px;
+    margin-bottom: 55px;
     overflow: hidden;
     padding: 0;
     display: flex;
@@ -731,7 +771,7 @@ padding-bottom: 18px;
      background-color: #2573E6;
   }
 
-  .testimonial-slider ul.slider {
+  .testimonial-slider ul.slider2 {
 
     display: inline-block;
      list-style: none;
@@ -746,32 +786,32 @@ padding-bottom: 18px;
 
 
 
-  .testimonial-slider ul.slider li {
+  .testimonial-slider ul.slider2 li {
       position: absolute;
       width: 100%;
       opacity: 0;
       margin: 0 auto;
   }
-  .testimonial-slider ul.slider li:nth-child(1) {
+  .testimonial-slider ul.slider2 li:nth-child(1) {
       opacity: 1;
 
       -webkit-animation: fade-animation-1 25s infinite;
               animation: fade-animation-1 25s infinite;
   }
-  .testimonial-slider ul.slider li:nth-child(2) {
+  .testimonial-slider ul.slider2 li:nth-child(2) {
       -webkit-animation: fade-animation-2 25s infinite;
               animation: fade-animation-2 25s infinite;
   }
-  .testimonial-slider ul.slider li:nth-child(3) {
+  .testimonial-slider ul.slider2 li:nth-child(3) {
       -webkit-animation: fade-animation-3 25s infinite;
               animation: fade-animation-3 25s infinite;
   }
-  .testimonial-slider ul.slider li:nth-child(4) {
+  .testimonial-slider ul.slider2 li:nth-child(4) {
       -webkit-animation: fade-animation-4 25s infinite;
               animation: fade-animation-4 25s infinite;
   }
 
-  .testimonial-slider ul.slider li:nth-child(5) {
+  .testimonial-slider ul.slider2 li:nth-child(5) {
     -webkit-animation: fade-animation-4 25s infinite;
             animation: fade-animation-4 25s infinite;
 }
@@ -1289,3 +1329,64 @@ blockquote {
 
 
 
+/* Style dla slidera pokaz slajdó loga banków */
+
+  
+  @-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background: white;
+
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 1440px;
+  }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
+
+  .bankLogo{
+      height: 42px;
+      width: 105px;
+  }

@@ -30,4 +30,4 @@ for (i = 0; i < acc.length; i++) {
             panel.style.display = "block";
         }
     });
-}// koneic Skryptu dla FAQ
+}// koniec Skryptu dla FAQ
