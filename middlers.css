@@ -554,8 +554,10 @@ padding-bottom: 18px;
 }
 
 
+
 #call_btn_navBar{
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 18px;
     border-width: 0;
     outline: none;
@@ -1390,3 +1392,8 @@ blockquote {
       height: 42px;
       width: 105px;
   }
+
+  #quote_kontakt{
+    margin-bottom: 20px; 
+    font-size: 26px;
+}

@@ -5,7 +5,6 @@ var html = '<nav class="navbar">\
     <div class="hamburger"></div>\
 </span>\
 <a href="https://middlers.pl" class="logo">○●○ middlers</a>\
-<button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="https://middlers.pl/images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
 <ul class="main-nav" id="pozycjeMenu">\
     <li>\
     <a href="/o-mnie.html" class="nav-links">O MNIE </a>\
@@ -25,6 +24,9 @@ var html = '<nav class="navbar">\
     <li>\
         <a href="/kontakt" class="nav-links">KONTAKT</a>\
     </li>\
+    <li>\
+    <button id="call_btn_navBar" onclick="callFunction()" type="button"><img class="btn_icon" src="https://middlers.pl/images/call_icon.png" alt="Doradca kredytowy wrocław zadzwoń">zadzwoń</button>\
+</li>\
 </ul>\
 </nav>\
 <!--To poniższe ciasteczko jest tylko po to, żeby zrobićnową DIV dla bannera z ciasteczkiem a jest w tym miejscu, zeby nie trzeba bylo kopiowac tego do kazdej strony-->\

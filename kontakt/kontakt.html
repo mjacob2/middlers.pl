@@ -72,7 +72,7 @@
 
 
 
-    <!-- Smartsupp Live Chat script -->
+    <!-- Smartsupp Live Chat script 
     <script type="text/javascript">
         var _smartsupp = _smartsupp || {};
         _smartsupp.key = '0a8159dfb391a7da28c70dfa3ba561ea988b6b02';
@@ -83,8 +83,33 @@
             c.src = 'https://www.smartsuppchat.com/loader.js?'; s.parentNode.insertBefore(c, s);
         })(document);
     </script>
+-->
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '966389650449326');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=966389650449326&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 
 </head>
+
+
 
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -107,7 +132,7 @@
                 <img class="picture_quote_kontakt" src="../images/blue_quote_sign.png" alt="Doradca finansowy wrocław">
             </div>
 
-            <h3 style="margin-bottom: 20px;" class="quote_1">
+            <h3 id="quote_kontakt" class="quote_1">
                 Wierzę, że <span class="text_blue_background">każdy może mieć najlepszy kredyt hipoteczny. Dlatego
                     jestem mobilny.</span> Aby spotkać się z&nbsp;Tobą tam, gdzie jest Ci najwygodniej.
             </h3>
@@ -141,6 +166,13 @@
                 margin-right: auto; display: block;" type="button" class="button_no_borders "
                     onclick="window.open('https://join.skype.com/invite/ot62Vof08tqy')">Dołącz
                     na SKYPE</button>
+
+
+                <button style="font-size: 14px; margin-left: auto;
+                margin-right: auto; display: block;" id="openInternetForm" type="button" class="button_no_borders"
+                    onclick="window.open('https://forms.zohopublic.eu/jakubickim/form/abc/formperma/4CTCfBkz-6-h29FkJPHQmyeFShrErtcsuppDiUTmZOI')">
+                    OBLICZ ZDOLNOŚĆ <br> KREDYTOWĄ
+                </button>
 
 
 

@@ -161,6 +161,8 @@ font-size: 28px;
 }
 
 
+
+
 .glownyKontener{
     max-width: 1440px;
     min-height: 600px;
@@ -376,4 +378,9 @@ blockquote {
 
     #call_btn_navBar{
 display: none;
+    }
+
+    #quote_kontakt{
+        margin-bottom: 20px; 
+        font-size: 36px;
     }
