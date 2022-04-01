@@ -100,26 +100,8 @@
 -->
 
 
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '966389650449326');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=966389650449326&ev=PageView&noscript=1" /></noscript>
-    <!-- End Facebook Pixel Code -->
+    <!-- znacznik weryfikujący domenę dla Facebooka-->
+    <meta name="facebook-domain-verification" content="apf3ucx0hj1m4u6t5ah0m4fb3fuc5f" />
 
 
 </head>
@@ -141,7 +123,7 @@
     <div class="glownyKontener">
         <div class="kontenerGlowneZdjecie">
             <img class="picture_main_nowe"
-                src="https://middlers.pl/images/doradca_kredytowy_wroclaw_Marek_Jakubicki.png"
+                src="https://middlers.pl/images/Marek-Jakubicki-doradca-kredytowy-Wroclaw.png"
                 alt="Doradca kredytowy wrocław okładka">
         </div>
 
@@ -150,17 +132,19 @@
                 Załatwiam najlepsze kredyty hipoteczne.
             </h1>
             <h2 class="podTytulStrony">
-                Jestem mobilnym ekspertem kredytów hipotecznych. Możesz ze mną złożyć wnioski bez wychodzenia z domu lub
+                Jestem mobilny. Ze mną złożysz wnioski bez wychodzenia z domu lub
                 pracy!
             </h2>
 
 
             <div class="mainButtons">
 
+                <!-- 
                 <button id="przycisk_umow_spotkanie_top" onClick="window.location.href='kontakt'" class="btn btn_gold"
                     type="button">SKONTAKTUJ SIĘ</button>
+                -->
 
-                <button style="font-size: 14PX;" id="openInternetForm" type="button" class="btn btn_blue"
+                <button style="font-size: 14PX;" id="openInternetForm" type="button" class="btn btn_gold"
                     onclick="window.open('https://forms.zohopublic.eu/jakubickim/form/abc/formperma/4CTCfBkz-6-h29FkJPHQmyeFShrErtcsuppDiUTmZOI')">
                     OBLICZ ZDOLNOŚĆ KREDYTOWĄ
                 </button>
