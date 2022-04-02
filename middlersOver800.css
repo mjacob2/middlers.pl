@@ -1,22 +1,22 @@
-.quote_1{
+.quote_1 {
     font-size: 50px;
 }
 
 
-.picture_quote{
+.picture_quote {
     width: 65px;
     height: 65px;
     margin-bottom: 20px;
 }
 
-.picture_quote_kontakt{
+.picture_quote_kontakt {
     width: 65px;
     height: 65px;
     margin-bottom: 20px;
 }
 
 
-.main_container{
+.main_container {
     width: 100%;
     height: 500px;
     display: flex;
@@ -25,22 +25,22 @@
 
 }
 
-#przycisk_umow_spotkanie_top{
-margin-left: 20px;
+#przycisk_umow_spotkanie_top {
+    margin-left: 20px;
 }
 
-.btnCentered{
+.btnCentered {
     margin-top: 12px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-.btn{
+.btn {
     margin: 20px;
 }
 
-.picture_main{
+.picture_main {
     width: 100%;
     height: 100%;
 
@@ -55,23 +55,23 @@ margin-left: 20px;
     height: 100%;
 }
 
-.picture_main_etapy{
+.picture_main_etapy {
     max-width: 300px;
     width: 100%;
 
-    
+
 }
 
 
 
-.mainButtons{
+.mainButtons {
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
 }
 
 
 
-.containterEtapy1{
+.containterEtapy1 {
     display: flex;
     flex-direction: row;
     max-width: 1200px;
@@ -82,7 +82,7 @@ margin-left: 20px;
 
 }
 
-.containterEtapy1Kontakt{
+.containterEtapy1Kontakt {
     display: flex;
     flex-direction: row;
     max-width: 1200px;
@@ -92,11 +92,12 @@ margin-left: 20px;
 
 }
 
-.CheckBoxcontainer{
-    max-width: 420px;;
+.CheckBoxcontainer {
+    max-width: 420px;
+    ;
 }
 
-.containterEtapy2{
+.containterEtapy2 {
     display: flex;
     flex-direction: row-reverse;
     max-width: 1200px;
@@ -107,50 +108,50 @@ margin-left: 20px;
 
 }
 
-.cardEtapyLewa{
+.cardEtapyLewa {
     display: inline-block;
     width: 100%;
     margin-right: 50px;
 
 }
 
-.cardEtapyLewaKontakt{
+.cardEtapyLewaKontakt {
     width: 100%;
 
 }
 
-.cardEtapyPrawa{
+.cardEtapyPrawa {
     display: inline-block;
     width: 100%;
 
 }
 
 
-.header1etapy{
+.header1etapy {
     font-size: 54px;
 }
 
-.header1Post{
+.header1Post {
     font-size: 46px;
 }
 
-.header2Post{
+.header2Post {
     font-size: 30px;
 }
 
-.header3Post{
+.header3Post {
     font-size: 22px;
 }
 
-.tytulStrony{
-font-size: 70px;
+.tytulStrony {
+    font-size: 70px;
 }
 
-.podTytulStrony{
-font-size: 28px;
+.podTytulStrony {
+    font-size: 28px;
 }
 
-.faq{
+.faq {
     margin-top: 150px;
     margin-bottom: 150px;
     padding-left: 20px;
@@ -163,7 +164,7 @@ font-size: 28px;
 
 
 
-.glownyKontener{
+.glownyKontener {
     max-width: 1440px;
     min-height: 600px;
     width: 100%;
@@ -179,7 +180,7 @@ font-size: 28px;
 
 }
 
-.kontenerGlowneZdjecie{
+.kontenerGlowneZdjecie {
 
     height: 100%;
     left: 37%;
@@ -195,7 +196,7 @@ font-size: 28px;
 
 }
 
-.picture_main_nowe{
+.picture_main_nowe {
     height: 100%;
     width: 100%;
     margin-top: 30px;
@@ -203,8 +204,8 @@ font-size: 28px;
 
 }
 
-.kontenerGlowneTeksty{
-    padding-top:10px;
+.kontenerGlowneTeksty {
+    padding-top: 10px;
     display: inline-block;
     height: 100%;
     z-index: 4;
@@ -227,15 +228,18 @@ font-size: 28px;
     height: 50px;
     align-items: center;
 }
+
 .main-nav {
     display: flex;
     margin-right: 100px;
     flex-direction: row;
     justify-content: flex-end;
 }
+
 .main-nav li {
     margin: 0;
 }
+
 .nav-links {
     margin-left: 40px;
 }
@@ -244,8 +248,9 @@ font-size: 28px;
     margin-left: 40px;
     margin-top: 0;
 }
+
 .navbar-toggle {
-   display: none;
+    display: none;
 }
 
 
@@ -253,34 +258,36 @@ font-size: 28px;
 
     color: #1d56aa;
 }
+
 .stopka {
-    background-color:  #757575;
+    background-color: #757575;
 
 }
 
-.footerText{
+.footerText {
     font-size: 16px;
     margin-left: 100px;
     margin-right: 100px;
-  }
+}
 
-  
-  .thxPage{
+
+.thxPage {
 
     margin: 60px;
     margin-top: 100px;
 }
-.formField{
+
+.formField {
     max-width: 450px;
 
 }
 
 
-    
 
 
 
-.containerBlog{
+
+.containerBlog {
     display: flex;
     flex-direction: row;
     max-width: 1000px;
@@ -295,92 +302,91 @@ font-size: 28px;
 
 
 
-.dividerNapisy{
+.dividerNapisy {
     margin-left: 40px;
-    margin-top: 120px;
 
 }
 
-.divider{
+.divider {
     margin-left: 40px;
     margin-bottom: 80px;
 }
 
-.cardLewaBlog{
+.cardLewaBlog {
     display: inline-block;
     margin-right: 50px;
     height: 100%;
 
 }
 
-.cardPrawaBlog{
+.cardPrawaBlog {
 
     width: 100%;
 
 }
 
 
-.bodyPostContent{
+.bodyPostContent {
     margin-top: 150px;
-    }
+}
 
-    .bodyPicturePost{
+.bodyPicturePost {
     width: 100%;
     height: 500px;
 
 }
 
-.bodyPicturePostInside{
+.bodyPicturePostInside {
     width: 100%;
 
 }
 
-.bodyHeaderPost{
+.bodyHeaderPost {
 
     margin-left: 48px;
 
-    
+
 }
 
-.postContentSimpleText{
+.postContentSimpleText {
     font-size: 18px;
 
 }
 
 
-li{
+li {
     font-size: 18px;
 }
 
 blockquote {
     font-size: 22px;
 
-    }
+}
 
-    .specialText{
-        font-size: 14px;
-    }
+.specialText {
+    font-size: 14px;
+}
 
-    .bodyPostSpecials{
-        flex-direction: row;
-    }
+.bodyPostSpecials {
+    flex-direction: row;
+}
 
-    .btn_blue{
-        margin-left: 0px;
-    }
-
-
+.btn_blue {
+    margin-left: 0px;
+}
 
 
-    .cardArticle {
-        margin-left: 40px;
-    }
 
-    #call_btn_navBar{
-display: none;
-    }
 
-    #quote_kontakt{
-        margin-bottom: 20px; 
-        font-size: 36px;
-    }
+.cardArticle {
+    margin-left: 40px;
+}
+
+#call_btn_navBar {
+    display: none;
+}
+
+#quote_kontakt {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
