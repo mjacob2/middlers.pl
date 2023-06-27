@@ -1347,3 +1347,27 @@ blockquote cite:before {
 }
 
 /* Koniec stylów dla bannera ciasteczkowego */
+
+
+.btn_gold {
+    font-weight: bold;
+    background-color: #FFCA28;
+    color: black;
+
+}
+
+.btn_gold:hover {
+    background-color: #FFA000;
+}
+
+.btn {
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    font-size: 17px;
+    border-width: 0;
+    padding: 16px 22px;
+    border-radius: 42px;
+    box-shadow: -7px 7px 11px #bababa, 7px -7px 11px #ffffff;
+
+}
